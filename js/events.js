@@ -12,8 +12,8 @@ function frameIt() {
 
 function pressIt() {
   $(document).on("keydown", e => {
-    if (e.which);
-    console.log(e.which);
+    if (e.which === 71)
+      console.log(e.which);
   })
 }
 
