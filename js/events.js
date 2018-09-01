@@ -12,9 +12,10 @@ function frameIt() {
 
 function pressIt() {
   $(document).on("keydown", e => {
-    if (e.which === 71)
-      alert("You pressed G!")
-  })
+    if (e.which === 71) {
+      alert("You pressed G!");
+    }
+  });
 }
 
 $(document).ready(function(){
