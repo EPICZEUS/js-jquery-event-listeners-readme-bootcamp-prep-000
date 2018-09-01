@@ -13,7 +13,7 @@ function frameIt() {
 function pressIt() {
   $(document).on("keydown", e => {
     if (e.which);
-    console.log(e);
+    console.log(e.which);
   })
 }
 
